@@ -39,18 +39,31 @@
             color: #fff;
         }
         #videos{
-          line-height: 250%;
+          /* line-height: 10%; */
           font-size:300%;
           font-weight: 500;
           padding-bottom: 2%;
           color:black;
         }
         #portfolio{
-          padding-top: 7%;
+          padding-top: 1%;
           padding-bottom: 10%;
           background-color: #bad7e0 ;
-          
         }
+
+        @media only screen and (min-width: 660px) {
+          .container-fluid{
+              margin: auto;
+              width: 60%;
+          }
+        }
+
+        @media only screen and (max-width: 360px) {
+          .container-fluid{
+            display:block;
+          }
+        }
+        
     </style>
     <nav>
         <div class="container0">
@@ -63,7 +76,7 @@
     
         <ul id="nav" class="nav" style="padding-top: 10px; padding-bottom: 10px;">
           <a href="index.html"><img src="img/logo.png" alt="" style="height: 30px; margin-top: -5px"></a>
-          <a id="special" disabled>Project Gallery</a>
+          <a id="special" disabled>eYSIP 2021 Gallery</a>
           <a href="eville.html">E-Ville</a>
           <a href="mville.html">M-Ville</a>
           <a href="rville.html">R-Ville</a>
@@ -89,10 +102,9 @@
     </div>
 
 <div id="portfolio">
-  <div class="container-fluid" style="margin: auto; width: 100%;">
-    <div style="margin: auto; width: 80%;">
+  <div class="container-fluid">
       <h1  id="videos">Fun ville activities on some impactful topics! </h1>
-    </div>
+
     <div class="card">
       <div class="card-header">
         <iframe src="https://drive.google.com/file/d/1P3IP8tXhaRWx1XJl8XFPMTa-l1St4uHX/preview" width="100%" height="100%" allow="autoplay"></iframe>

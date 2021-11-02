@@ -9,11 +9,11 @@ https://templatemo.com/tm-520-highway
 .card {
    margin: 10px; 
   background-color:white;
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   display: inline-block;
-  width: 335px;
+  width: 400px;
 }
 .card-header iframe {
   width: 100%;
